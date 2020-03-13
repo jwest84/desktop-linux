@@ -4,6 +4,11 @@ This repo includes scripts and files to help setup desktop linux environment
 
 * Install [Intellij Idea](https://www.jetbrains.com/idea/download/#section=linux)
 
+# Browsers
+
+* Install [Firefox](https://www.mozilla.org/en-US/exp/firefox/new/)
+* Install [Google Chrome](https://www.google.com/chrome/)
+
 # Git
 
 * To get this repo, git should be installed via `sudo apt-get install git`
@@ -24,6 +29,6 @@ This repo includes scripts and files to help setup desktop linux environment
 
 # Useful utilities
 
-
-* PDF viewer: evince
-* Zip
+* Run `sudo ./install_useful_utilities.sh`
+** Installs PDF viewer: evince, zip
+* Install [Dropbox](https://www.dropbox.com/h)
