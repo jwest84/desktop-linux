@@ -1,1 +1,7 @@
-sudo apt install docker.io
+apt install docker.io
+
+groupadd docker
+
+usermod -aG docker `whoami`
+
+
