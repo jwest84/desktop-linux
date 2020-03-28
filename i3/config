@@ -187,8 +187,10 @@ assign [class="Google-chrome"] $ws8
 for_window [class="Spotify"] move to workspace $ws10
 assign [class="Rambox"] $ws9
 assign [class="Skype"] $ws9
+assign [class="jetbrains-idea-ce"] $ws4
 exec i3-sensible-terminal
 exec dropbox start
 exec nm-applet
 exec feh --bg-scale ~/Pictures/W_2013_327.jpg
+
 bindsym $mod+f exec pcmanfm
