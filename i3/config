@@ -74,7 +74,7 @@ bindsym $mod+h split h
 bindsym $mod+v split v
 
 # enter fullscreen mode for the focused container
-bindsym $mod+f fullscreen toggle
+bindsym $mod+F11 fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
 bindsym $mod+s layout stacking
@@ -191,3 +191,4 @@ exec i3-sensible-terminal
 exec dropbox start
 exec nm-applet
 exec feh --bg-scale ~/Pictures/W_2013_327.jpg
+bindsym $mod+f exec pcmanfm
