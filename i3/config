@@ -194,3 +194,13 @@ exec nm-applet
 exec feh --bg-scale ~/Pictures/W_2013_327.jpg
 
 bindsym $mod+f exec pcmanfm
+
+exec "amixer -q set Speaker max"
+exec "amixer -q set Headphone max"
+exec "amixer -q set Speaker on"
+exec "amixer -q set Headphone on"
+
+
+bindsym XF86AudioRaiseVolume exec "amixer -q set Master 2dB+ unmute"
+bindsym XF86AudioLowerVolume exec "amixer -q set Master 2dB- unmute"
+bindsym XF86AudioMute exec "amixer -q set Master toggle & amixer -q set Speaker toggle & amixer -q set Headphone toggle"
