@@ -4,3 +4,4 @@ apt-get install terminator
 apt-get install synapse
 apt-get install dia
 apt-get install pcmanfm
+apt install flatpak
